@@ -1,9 +1,6 @@
 <h1 align="center">Hi 👋, I'm Dev Desai</h1>
 <h3 align="center">Computer Science Student | Software Developer | AI/ML Explorer</h3>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=devdesai06&label=Profile%20views&color=0e75b6&style=flat" />
-</p>
 
 ---
 
@@ -29,7 +26,7 @@
 - 🌦️ Weather App using API  
 - 📄 Resume Analyzer (React + Gemini API)  
 - 🎮 Mini Games (Snake, Memory Game)  
-- 🌍 City Runner – Google Maps React App  
+- 🌍 City Runner – Google Maps React App  (In Progress)
 - 🧭 AI-based Navigation & Computer Vision Projects (In Progress)
 
 ---
