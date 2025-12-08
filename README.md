@@ -22,20 +22,6 @@
   <img src="https://skillicons.dev/icons?i=html,css,js,react,node,express,mongodb,python,cpp,git,github" />
 </p>
 
----
-
-### 📊 GitHub Stats  
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=devdesai06&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=devdesai06&theme=tokyonight" height="160"/>
-</p>
-
----
-
-### 🏆 GitHub Trophies  
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=devdesai06&theme=onedark&row=1&column=7"/>
-</p>
 
 ---
 
@@ -60,8 +46,6 @@
 
 ---
 
-### 🐍 Contribution Snake  
-![snake animation](https://raw.githubusercontent.com/devdesai06/devdesai06/output/github-contribution-grid-snake.svg)
 
 ---
 
