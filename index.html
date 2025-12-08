@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dev Desai | 3D Cube Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow-x: hidden;
+      padding: 20px;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      text-align: center;
+    }
+
+    h1 {
+      color: white;
+      font-size: 3em;
+      margin-bottom: 10px;
+      animation: fadeIn 1s ease;
+    }
+
+    .subtitle {
+      color: rgba(255,255,255,.9);
+      font-size: 1.4em;
+      margin-bottom: 10px;
+    }
+
+    .instructions {
+      color: rgba(255,255,255,.8);
+      margin-bottom: 30px;
+    }
+
+    .scene {
+      width: 450px;
+      height: 450px;
+      margin: auto;
+      perspective: 1000px;
+    }
+
+    .cube {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      cursor: grab;
+    }
+
+    .cube.dragging {
+      cursor: grabbing;
+    }
+
+    .cube-face {
+      position: absolute;
+      width: 350px;
+      height: 350px;
+      background: rgba(255,255,255,.97);
+      border-radius: 20px;
+      border: 3px solid rgba(102,126,234,.4);
+      padding: 25px;
+      box-shadow: 0 0 25px rgba(0,0,0,.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .cube-face h2 {
+      color: #667eea;
+      margin-bottom: 15px;
+      border-bottom: 3px solid #764ba2;
+      padding-bottom: 5px;
+      width: 100%;
+    }
+
+    .cube-face ul {
+      list-style: none;
+      width: 100%;
+      text-align: left;
+    }
+
+    .cube-face li {
+      padding: 6px 0;
+      border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+
+    .skill-item {
+      background: linear-gradient(135deg,#667eea,#764ba2);
+      color: white;
+      padding: 8px 14px;
+      margin: 4px;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: .85em;
+    }
+
+    .social-link {
+      background: linear-gradient(135deg,#667eea,#764ba2);
+      color: white;
+      padding: 10px 18px;
+      text-decoration: none;
+      border-radius: 25px;
+      margin: 10px 6px;
+      display: inline-block;
+    }
+
+    .stat-bar {
+      width: 100%;
+      margin-bottom: 12px;
+    }
+
+    .stat-label {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+      color: #667eea;
+      margin-bottom: 3px;
+    }
+
+    .stat-bg {
+      background: rgba(102,126,234,.2);
+      border-radius: 15px;
+      height: 22px;
+      overflow: hidden;
+    }
+
+    .stat-fill {
+      height: 100%;
+      background: linear-gradient(90deg,#667eea,#764ba2);
+      width: 0%;
+      transition: width 1.5s ease;
+    }
+
+    /* Cube sides */
+    .front   { transform: translateZ(175px); }
+    .back    { transform: rotateY(180deg) translateZ(175px); }
+    .right   { transform: rotateY(90deg) translateZ(175px); }
+    .left    { transform: rotateY(-90deg) translateZ(175px); }
+    .top     { transform: rotateX(90deg) translateZ(175px); }
+    .bottom  { transform: rotateX(-90deg) translateZ(175px); }
+
+    .controls {
+      margin-top: 30px;
+    }
+
+    .control-btn {
+      padding: 10px 20px;
+      border-radius: 25px;
+      border: none;
+      margin: 6px;
+      font-weight: bold;
+      color: #667eea;
+      background: white;
+      cursor: pointer;
+    }
+
+    @media(max-width:768px) {
+      .scene { width: 300px; height: 300px; }
+      .cube-face { width: 230px; height: 230px; padding: 15px; }
+      .front,.back,.right,.left,.top,.bottom { transform: translateZ(115px); }
+    }
+
+    @keyframes fadeIn {
+      from {opacity:0; transform:translateY(-20px);}
+      to {opacity:1; transform:none;}
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h1>🎲 Dev Desai</h1>
+  <p class="subtitle">Software Developer | AI/ML & Full-Stack</p>
+  <p class="instructions">Drag to rotate • Use buttons to snap views</p>
+
+  <div class="scene">
+    <div class="cube" id="cube">
+
+      <div class="cube-face front">
+        <h2>👋 About</h2>
+        <p>Computer Science student passionate about building real-world software, exploring AI/ML, and continuous learning.</p>
+      </div>
+
+      <div class="cube-face back">
+        <h2>🚀 Skills</h2>
+        <div>
+          <span class="skill-item">JavaScript</span>
+          <span class="skill-item">React</span>
+          <span class="skill-item">Node</span>
+          <span class="skill-item">MongoDB</span>
+          <span class="skill-item">Python</span>
+          <span class="skill-item">C++</span>
+          <span class="skill-item">Git</span>
+        </div>
+      </div>
+
+      <div class="cube-face right">
+        <h2>💼 Projects</h2>
+        <ul>
+          <li>Resume Analyzer</li>
+          <li>Weather App</li>
+          <li>Portfolio Website</li>
+          <li>AI Tool Experiments</li>
+        </ul>
+      </div>
+
+      <div class="cube-face left">
+        <h2>📬 Contact</h2>
+        <a class="social-link" href="https://github.com/devdesai06">GitHub</a>
+        <a class="social-link" href="https://linkedin.com">LinkedIn</a>
+      </div>
+
+      <div class="cube-face top">
+        <h2>📊 Stats</h2>
+
+        <div class="stat-bar">
+          <div class="stat-label"><span>Frontend</span><span>90%</span></div>
+          <div class="stat-bg"><div class="stat-fill" style="width:90%"></div></div>
+        </div>
+
+        <div class="stat-bar">
+          <div class="stat-label"><span>Backend</span><span>85%</span></div>
+          <div class="stat-bg"><div class="stat-fill" style="width:85%"></div></div>
+        </div>
+
+        <div class="stat-bar">
+          <div class="stat-label"><span>AI/ML</span><span>70%</span></div>
+          <div class="stat-bg"><div class="stat-fill" style="width:70%"></div></div>
+        </div>
+      </div>
+
+      <div class="cube-face bottom">
+        <h2>🏆 Achievements</h2>
+        <ul>
+          <li>CSI Interview Shortlist</li>
+          <li>Hackathon Participant</li>
+          <li>Multiple Web Projects</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="controls">
+    <button class="control-btn" onclick="rotateTo(0,0)">About</button>
+    <button class="control-btn" onclick="rotateTo(0,180)">Skills</button>
+    <button class="control-btn" onclick="rotateTo(0,90)">Projects</button>
+    <button class="control-btn" onclick="rotateTo(0,-90)">Contact</button>
+    <button class="control-btn" onclick="rotateTo(-90,0)">Stats</button>
+    <button class="control-btn" onclick="rotateTo(90,0)">Achievements</button>
+  </div>
+</div>
+
+<script>
+  const cube = document.getElementById("cube");
+  let isDragging = false;
+  let startX = 0, startY = 0;
+  let rotX = 0, rotY = 0;
+
+  cube.addEventListener("mousedown", e => {
+    isDragging = true;
+    cube.classList.add("dragging");
+    startX = e.clientX;
+    startY = e.clientY;
+  });
+
+  document.addEventListener("mousemove", e => {
+    if (!isDragging) return;
+    rotY += (e.clientX - startX) * 0.5;
+    rotX -= (e.clientY - startY) * 0.5;
+    cube.style.transform = `rotateX(${rotX}deg) rotateY(${rotY}deg)`;
+    startX = e.clientX;
+    startY = e.clientY;
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+    cube.classList.remove("dragging");
+  });
+
+  function rotateTo(x, y) {
+    rotX = x;
+    rotY = y;
+    cube.style.transition = "transform 1s ease";
+    cube.style.transform = `rotateX(${x}deg) rotateY(${y}deg)`;
+    setTimeout(() => cube.style.transition = "", 1000);
+  }
+
+  window.onload = () => {
+    document.querySelectorAll(".stat-fill").forEach(bar => {
+      const width = bar.style.width;
+      bar.style.width = "0%";
+      setTimeout(() => bar.style.width = width, 400);
+    });
+  };
+</script>
+
+</body>
+</html>
