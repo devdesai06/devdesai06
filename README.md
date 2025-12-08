@@ -52,5 +52,7 @@
 - **Data Structures & Problem Solving**
 
 ---
+![snake animation](https://raw.githubusercontent.com/devdesai06/devdesai06/output/github-contribution-grid-snake.svg)
+
 
 ⭐ If you like my work, consider giving a star to my projects!
