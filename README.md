@@ -4,11 +4,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&center=true&vCenter=true&width=550&lines=Computer+Science+Student;Software+Developer;AI%2FML+Explorer;Full+Stack+Learner;Always+Building+%26+Learning" />
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=devdesai06&label=Profile%20Views&color=blueviolet&style=flat" />
-</p>
 
----
 
 ##  About Me  
 - 🎓 Computer Science student passionate about **software development & AI/ML**  
