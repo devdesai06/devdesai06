@@ -1,117 +1,119 @@
 <div align="center">
 
-# dev_desai.sys
+# Dev Desai
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=system_architect+%7C+software_engineer;runtime%3A+continuous_integration;status%3A+building+%26+learning)](https://git.io/typing-svg)
+### Computer Science Student • Software Developer • AI/ML Explorer
 
-</div>
-
----
-
-## 0x01 → SYSTEM_PROFILE
-
-```json
-{
-  "user": "dev_desai",
-  "role": "computer_science_student",
-  "specialization": ["software_development", "ai_ml_engineering"],
-  "methodology": "iterative_learning",
-  "interests": [
-    "full_stack_architecture",
-    "machine_learning_systems",
-    "algorithmic_problem_solving"
-  ],
-  "philosophy": "code → learn → build → iterate",
-  "location": "vadodara_gj_in",
-  "status": "active"
-}
-```
-
----
-
-## 0x02 → ACTIVE_REPOSITORIES
-
-| PROJECT_NAME | STACK | SYSTEM_STATUS |
-|--------------|-------|---------------|
-| `freelance_hub` | `React` + `Express` + `MongoDB` | `[STABLE]` |
-| `resume_analyzer` | `React` + `Gemini_API` | `[STABLE]` |
-| `weather_app` | `JavaScript` + `REST_API` | `[STABLE]` |
-| `city_runner` | `React` + `Google_Maps_API` | `[WIP]` |
-| `ai_navigation_suite` | `Python` + `Computer_Vision` | `[BETA]` |
-| `mini_games` | `JavaScript` + `HTML5_Canvas` | `[STABLE]` |
-
-**Legend:** `[STABLE]` = Production Ready | `[BETA]` = Testing Phase | `[WIP]` = Work In Progress
-
----
-
-## 0x03 → LIVE_PROCESS_LOG
-
-```bash
-$ tail -f /var/log/dev_learning.log
-
-[2025-12-28 14:32:18] INFO: Deepening React.js component architecture patterns
-[2025-12-28 14:32:18] INFO: Scaling Node.js backend systems with Express middleware
-[2025-12-28 14:32:18] INFO: Training ML models using Python + TensorFlow/PyTorch
-[2025-12-28 14:32:18] INFO: Solving DSA challenges for competitive programming
-[2025-12-28 14:32:18] STATUS: continuous_integration_active
-```
-
----
-
-## 0x04 → TECHNOLOGY_MATRIX
-
-### `CORE_ENGINE`
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-
-### `WEB_ARCHITECTURE`
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-### `TOOLCHAIN`
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-
----
-
-## 0x05 → NETWORK_INTERFACE
-
-```bash
-$ curl -X GET https://api.dev_desai.connect
-```
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-desai-8bb22331b)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devdesai06)
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Building+solutions+through+code;Exploring+AI+and+Machine+Learning;Full-stack+development+enthusiast;Always+learning%2C+always+growing" alt="Typing SVG" />
 
 </div>
 
 ---
 
-## 0x06 → FEATURED_BUILDS
+## Who I Am
 
-**`freelance_hub`** → Full-stack platform enabling freelancer-client connection with authentication, search filtering, and bidding system architecture
+I'm a computer science student with a passion for transforming ideas into functional, elegant software. My journey in tech is driven by curiosity and a commitment to continuous learning. Whether it's building full-stack applications, experimenting with machine learning algorithms, or solving algorithmic puzzles, I'm always pushing boundaries and exploring what's possible with code.
 
-**`resume_analyzer`** → Intelligent document parsing engine using `Gemini_API` for resume evaluation and feedback generation
+**Current Focus:** Deepening my expertise in modern web technologies while expanding into AI/ML applications and competitive programming.
 
-**`weather_app`** → Real-time meteorological data interface consuming external `REST_API` endpoints
+> *"The best way to predict the future is to build it."*
 
-**`mini_games`** → Collection of browser-based interactive experiences: Memory Grid + Snake Algorithm
+---
+
+## Technical Arsenal
+
+**Languages & Frameworks**
+
+<table align="center">
+<tr>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=js,react,express" /><br />
+<sub><b>JavaScript Ecosystem</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=python,cpp" /><br />
+<sub><b>Core Languages</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=html,css" /><br />
+<sub><b>Web Fundamentals</b></sub>
+</td>
+<td align="center" width="25%">
+<img src="https://skillicons.dev/icons?i=mongodb,git,github" /><br />
+<sub><b>Tools & Databases</b></sub>
+</td>
+</tr>
+</table>
+
+---
+
+## Project Showcase
+
+### FreelanceHub
+A comprehensive freelancer-client platform featuring robust authentication, advanced search and filtering capabilities, and a complete project bidding system. Built with modern web technologies to solve real-world collaboration challenges.
+
+**Tech:** React • Node.js • Express • MongoDB • Authentication
+
+---
+
+### Resume Analyzer
+Intelligent resume evaluation tool leveraging Google's Gemini API to provide actionable insights and improvement suggestions for job seekers.
+
+**Tech:** React • Gemini API • Natural Language Processing
+
+---
+
+### Weather Application
+Real-time weather information system pulling live data from external APIs, presenting meteorological data in an intuitive interface.
+
+**Tech:** JavaScript • Weather API • Responsive Design
+
+---
+
+### Interactive Games Collection
+Built engaging browser-based games including a Memory Game and Snake Game, focusing on smooth gameplay mechanics and user experience.
+
+**Tech:** JavaScript • HTML5 Canvas • Game Logic
+
+---
+
+### In Development
+
+**City Runner** — Google Maps-integrated React application exploring location-based features
+
+**AI Navigation System** — Computer vision and pathfinding project combining machine learning with practical navigation
+
+---
+
+## Current Learning Path
+
+I'm currently investing time in mastering advanced concepts across multiple domains:
+
+- **Web Development:** Deep diving into React patterns, Node.js architecture, and full-stack best practices
+- **Artificial Intelligence:** Exploring machine learning algorithms, neural networks, and practical AI implementations with Python
+- **Computer Science Fundamentals:** Strengthening data structures knowledge and competitive programming skills
+
+---
+
+## Let's Connect
+
+I'm always open to collaborating on interesting projects, discussing technology, or connecting with fellow developers.
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-desai-8bb22331b)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devdesai06)
+
+</div>
 
 ---
 
 <div align="center">
 
-```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- if (repo.value > 0) { repo.star++ }
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+### Thanks for visiting!
+
+If you find my projects interesting or useful, consider starring them — it helps more than you might think.
+
+![Profile Views](https://komarev.com/ghpvc/?username=devdesai06&color=blueviolet&style=flat-square)
 
 </div>
