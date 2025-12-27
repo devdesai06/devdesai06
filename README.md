@@ -96,21 +96,11 @@ Browser-based games collection
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=devdesai06&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devdesai06&layout=compact&langs_count=8&theme=tokyonight"/>
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=devdesai06&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117)
 
-</div>
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=devdesai06&layout=compact&theme=radical&hide_border=true&bg_color=0D1117)
 
-
-</div>
-
----
-
-## Activity
-
-<div align="center">
-
-![Dev's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=devdesai06&theme=tokyo-night)
+![GitHub Streak](https://streak-stats.demolab.com/?user=devdesai06&theme=radical&hide_border=true&background=0D1117)
 
 </div>
 
