@@ -2,107 +2,118 @@
 
 # Dev Desai
 
-### Computer Science Student • Software Developer • AI/ML Explorer
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&pause=1000&center=true&vCenter=true&width=500&lines=Computer+Science+Student;Full+Stack+Developer;Problem+Solver;Building+Cool+Stuff" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Building+solutions+through+code;Exploring+AI+and+Machine+Learning;Full-stack+development+enthusiast;Always+learning%2C+always+growing" alt="Typing SVG" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-desai-8bb22331b)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devdesai06)
 
 </div>
 
 ---
 
-## Who I Am
+## Tech Stack
 
-I'm a computer science student with a passion for transforming ideas into functional, elegant software. My journey in tech is driven by curiosity and a commitment to continuous learning. Whether it's building full-stack applications, experimenting with machine learning algorithms, or solving algorithmic puzzles, I'm always pushing boundaries and exploring what's possible with code.
+<div align="center">
 
-**Current Focus:** Deepening my expertise in modern web technologies while expanding into AI/ML applications and competitive programming.
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-> *"The best way to predict the future is to build it."*
+</div>
 
 ---
 
-## Technical Arsenal
+## Projects
 
-**Languages & Frameworks**
-
-<table align="center">
+<table>
 <tr>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=js,react,express" /><br />
-<sub><b>JavaScript Ecosystem</b></sub>
+<td width="50%">
+
+### FreelanceHub
+Full-stack freelancer platform
+
+**Features:**
+- User authentication
+- Project search & filtering
+- Bidding system
+
+**Stack:** React • Node.js • Express • MongoDB
+
 </td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=python,cpp" /><br />
-<sub><b>Core Languages</b></sub>
+<td width="50%">
+
+### Resume Analyzer
+AI-powered resume evaluation
+
+**Features:**
+- Gemini API integration
+- Instant feedback
+- Improvement suggestions
+
+**Stack:** React • Gemini API
+
 </td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=html,css" /><br />
-<sub><b>Web Fundamentals</b></sub>
+</tr>
+<tr>
+<td width="50%">
+
+### Weather App
+Live weather data application
+
+**Features:**
+- Real-time weather API
+- Location-based data
+- Clean UI
+
+**Stack:** JavaScript • Weather API
+
 </td>
-<td align="center" width="25%">
-<img src="https://skillicons.dev/icons?i=mongodb,git,github" /><br />
-<sub><b>Tools & Databases</b></sub>
+<td width="50%">
+
+### Interactive Games
+Browser-based games collection
+
+**Projects:**
+- Memory Game
+- Snake Game
+
+**Stack:** JavaScript • HTML5 Canvas
+
 </td>
 </tr>
 </table>
 
 ---
 
-## Project Showcase
-
-### FreelanceHub
-A comprehensive freelancer-client platform featuring robust authentication, advanced search and filtering capabilities, and a complete project bidding system. Built with modern web technologies to solve real-world collaboration challenges.
-
-**Tech:** React • Node.js • Express • MongoDB • Authentication
-
----
-
-### Resume Analyzer
-Intelligent resume evaluation tool leveraging Google's Gemini API to provide actionable insights and improvement suggestions for job seekers.
-
-**Tech:** React • Gemini API • Natural Language Processing
-
----
-
-### Weather Application
-Real-time weather information system pulling live data from external APIs, presenting meteorological data in an intuitive interface.
-
-**Tech:** JavaScript • Weather API • Responsive Design
-
----
-
-### Interactive Games Collection
-Built engaging browser-based games including a Memory Game and Snake Game, focusing on smooth gameplay mechanics and user experience.
-
-**Tech:** JavaScript • HTML5 Canvas • Game Logic
-
----
-
-### In Development
-
-**City Runner** — Google Maps-integrated React application exploring location-based features
-
-**AI Navigation System** — Computer vision and pathfinding project combining machine learning with practical navigation
-
----
-
-## Current Learning Path
-
-I'm currently investing time in mastering advanced concepts across multiple domains:
-
-- **Web Development:** Deep diving into React patterns, Node.js architecture, and full-stack best practices
-- **Artificial Intelligence:** Exploring machine learning algorithms, neural networks, and practical AI implementations with Python
-- **Computer Science Fundamentals:** Strengthening data structures knowledge and competitive programming skills
-
----
-
-## Let's Connect
-
-I'm always open to collaborating on interesting projects, discussing technology, or connecting with fellow developers.
+## GitHub Stats
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dev-desai-8bb22331b)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/devdesai06)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=devdesai06&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=devdesai06&layout=compact&langs_count=8&theme=tokyonight"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=devdesai06&theme=tokyonight)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## Activity
+
+<div align="center">
+
+![Dev's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=devdesai06&theme=tokyo-night)
 
 </div>
 
@@ -110,10 +121,8 @@ I'm always open to collaborating on interesting projects, discussing technology,
 
 <div align="center">
 
-### Thanks for visiting!
+![Profile Views](https://komarev.com/ghpvc/?username=devdesai06&color=blueviolet&style=for-the-badge)
 
-If you find my projects interesting or useful, consider starring them — it helps more than you might think.
-
-![Profile Views](https://komarev.com/ghpvc/?username=devdesai06&color=blueviolet&style=flat-square)
+**Thanks for stopping by!**
 
 </div>
