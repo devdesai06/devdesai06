@@ -26,7 +26,4 @@ I am a Computer Science Engineering student with a strong interest in web develo
 src="https://img.shields.io/github/followers/devdesai06?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
 ### Badges
 
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/devdesai06"><img src="https://github-readme-streak-stats.herokuapp.com/?user=devdesai06&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
