@@ -21,9 +21,5 @@ I am a Computer Science Engineering student with a strong interest in web develo
 ---
 [![](https://visitcount.itsvg.in/api?id=devdesai_06&icon=2&color=8)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<a href="https://www.github.com/devdesai06" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/devdesai06?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-### Badges
 
 
