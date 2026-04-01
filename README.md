@@ -48,11 +48,6 @@ Multi-role platform (client/freelancer) with proposal workflows, profile managem
 
 ## Currently
 
-- **Working on:** System design concepts, DSA prep, open source contributions  
+- **Working on:** System design concepts, DSA prep 
 - **Learning:** Advanced Redis patterns, Docker + CI/CD, PostgreSQL internals  
 - **Goal:** Land a backend/full-stack role where I can build things at scale
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=devdesai06&theme=dark&hide_border=true&show_icons=true&include_all_commits=false&count_private=false)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=devdesai06&theme=dark&hide_border=true&layout=compact)
