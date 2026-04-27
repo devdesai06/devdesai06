@@ -45,13 +45,11 @@
 <tr>
 <td width="57%" valign="top">
 
-**Full Stack Developer and Backend Specialist.** CSE student building production-grade systems that go past "hello world" — not because tutorials are bad, but because they conveniently stop right before things explode in prod.
+**Full Stack Developer and Backend Specialist.** CSE student building production-grade systems that go past "hello world".
 
 I focus on rate-limited APIs, JWT-authenticated REST services, encrypted file pipelines, and system design. The goal is always clean architecture and code that doesn't fall apart the moment a second user shows up.
 
 Most of what I know came from shipping real things, debugging at 2am, and drinking an unreasonable amount of tea.
-
-> *"It works on my machine" is a perfectly valid deployment strategy. I said what I said.*
 
 </td>
 <td width="4%"></td>
@@ -60,22 +58,24 @@ Most of what I know came from shipping real things, debugging at 2am, and drinki
 **Currently**
 
 ```
-Working on   System design, DSA prep
+Working on   Good projects, DSA prep
              (yes, still LeetCode, no I
              don't enjoy it either)
-Learning     Redis patterns, Docker CI/CD
-             PostgreSQL internals
-Goal         Backend / full-stack role
-             building things at scale
+
+Learning     Redis patterns, Docker,
+             System design
+             
+Goal         Backend role building things at Scale.
+            
 ```
 
 **Beyond code**
 
 ```
-Tea          mandatory, not optional
-             3+ cups/day, no apologies
-Debugging    a spiritual practice
-Sleep        overrated (apparently)
+Tea            mandatory
+Sleep          overrated (apparently)
+Code-O-Logic   Real customer interaction and
+               production grade development
 ```
 
 </td>
@@ -90,7 +90,7 @@ Sleep        overrated (apparently)
 
 ## Tech Stack
 
-> *Collected over time. Some were fun to learn. Some were not. Redis was both.*
+> *Collected over time. Some were fun to learn. Some were not.*
 
 <br />
 
